@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: derived
+source: kinecosystem GitHub org + npm/PyPI registry verification
+note: >-
+  The Kin project is defunct. Kik Interactive's Kin cryptocurrency SDKs were
+  superseded by "Kinetic" and the Kin developer surface (developer.kin.org) is
+  no longer resolvable; every kinecosystem GitHub repository is archived and the
+  published registry packages below are deprecated. They are captured here as
+  the real, first-party client libraries the provider once shipped, not as
+  currently maintained software.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@kinecosystem/kin-sdk"
+    version: 0.20.8
+    url: https://www.npmjs.com/package/@kinecosystem/kin-sdk
+    install: npm install @kinecosystem/kin-sdk
+    official: true
+    deprecated: true
+    description: Library for working with the Stellar Horizon server on the Kin Network.
+  - language: javascript
+    registry: npm
+    name: "@kinecosystem/kin-sdk-node"
+    version: 0.9.4
+    url: https://www.npmjs.com/package/@kinecosystem/kin-sdk-node
+    install: npm install @kinecosystem/kin-sdk-node
+    official: true
+    deprecated: true
+    description: Kin SDK for the Node runtime.
+  - language: python
+    registry: pypi
+    name: kin-base
+    version: 1.4.1
+    url: https://pypi.org/project/kin-base/
+    install: pip install kin-base
+    official: true
+    deprecated: true
+    description: Kin base library for managing Kin (Stellar-fork) blockchain transactions and accounts.
