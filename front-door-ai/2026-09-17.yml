@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.kik.com
   final_host: kik.com
-  ownership: inherited
+  ownership: own
   owner: kik-kin
   shares_host_with: null
-  inherited_from: kik.com
+  inherited_from: null
+  alias_of: kik.com
   verdict: scored
-  score: null
+  score: 1
+  band: 2
+  band_label: trace
   host_score: 1
-  density: null
+  density: 7.94
   words: 126
   tiers:
     agentic: 0
